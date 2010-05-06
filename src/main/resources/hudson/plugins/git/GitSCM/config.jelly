@@ -67,6 +67,14 @@
   
   </f:entry>
 
+   <f:entry title="Checkout place">
+      <table width="100%">
+         <f:entry title="Relative target directory">
+            <f:textbox name="git.relativeTargetDir" value="${scm.relativeTargetDir}"/>
+         </f:entry>
+      </table>
+   </f:entry>
+
   <f:advanced>
          <!-- This needs more thought
   <f:entry title="Autogenerate submodule configurations">
